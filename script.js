@@ -36,7 +36,7 @@ async function start() {
 }
 
 function loadLabeledImages() {
-  const labels = ['Alex Karoki', 'Bill Gates', 'Elon Musk', 'Barrack Obama', 'Steve Jobs', 'Jeff Bezos']
+  const labels = ['Alex Karoki', 'Barrack Obama', 'Bill Gates', 'Elon Musk', 'Jeff Bezos', 'Steve Jobs']
   return Promise.all(
     labels.map(async label => {
       const descriptions = []
